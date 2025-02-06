@@ -1,19 +1,19 @@
-# Foxi - Astro Theme
+# NotesDaddy - Astro Theme
 
 Open-source Astro website template with fully responsive, customizable TailwindCSS components.
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/foxi.png)
+![just-the-basics](https://oxygenna-themes.b-cdn.net/NotesDaddy-astro/NotesDaddy.png)
 
-[![View live Demo](https://oxygenna-themes.b-cdn.net/foxi-astro/button-demo.svg)](https://foxi.netlify.app)
-[![Page Speed Insights (100%)](https://oxygenna-themes.b-cdn.net/foxi-astro/button-pagespeed.svg)](https://pagespeed.web.dev/analysis/https-foxi-netlify-app/c9ig3t85mu?form_factor=desktop)
+[![View live Demo](https://oxygenna-themes.b-cdn.net/NotesDaddy-astro/button-demo.svg)](https://NotesDaddy.netlify.app)
+[![Page Speed Insights (100%)](https://oxygenna-themes.b-cdn.net/NotesDaddy-astro/button-pagespeed.svg)](https://pagespeed.web.dev/analysis/https-NotesDaddy-netlify-app/c9ig3t85mu?form_factor=desktop)
 
 ## Introduction
 
 ### About
 
-Foxi is a free, highly customizable, and production-ready template for Astro, utilizing Tailwind CSS components. Designed with developers in mind, Foxi offers a solid foundation for building modern, high-performance websites quickly and efficiently.
+NotesDaddy is a free, highly customizable, and production-ready template for Astro, utilizing Tailwind CSS components. Designed with developers in mind, NotesDaddy offers a solid foundation for building modern, high-performance websites quickly and efficiently.
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/pagespeedscore.svg)
+![just-the-basics](https://oxygenna-themes.b-cdn.net/NotesDaddy-astro/pagespeedscore.svg)
 
 ### Features
 
@@ -68,10 +68,10 @@ Foxi is a free, highly customizable, and production-ready template for Astro, ut
 | License                   | MIT                        | Commercial                                                       |
 |                           |                            |                                                                  |
 | Pricing                   | Free                       | $79.99                                                           |
-|                           | Continue with Free version | [View Pro Version](https://astro.build/themes/details/foxi-pro/) |
+|                           | Continue with Free version | [View Pro Version](https://astro.build/themes/details/NotesDaddy-pro/) |
 
-[![Get Pro Version](https://oxygenna-themes.b-cdn.net/foxi-pro-astro/primary-button-get-foxi-pro.svg)](https://oxygenna.lemonsqueezy.com/buy/2e32ec07-aa31-45a4-835d-8ebb7f6048cc)
-[![View Foxi Pro live Demo](https://oxygenna-themes.b-cdn.net/foxi-pro-astro/secondary-button-foxi-pro-demo.svg)](https://foxi-pro.netlify.app/)
+[![Get Pro Version](https://oxygenna-themes.b-cdn.net/NotesDaddy-pro-astro/primary-button-get-NotesDaddy-pro.svg)](https://oxygenna.lemonsqueezy.com/buy/2e32ec07-aa31-45a4-835d-8ebb7f6048cc)
+[![View NotesDaddy Pro live Demo](https://oxygenna-themes.b-cdn.net/NotesDaddy-pro-astro/secondary-button-NotesDaddy-pro-demo.svg)](https://NotesDaddy-pro.netlify.app/)
 
 ## Getting Started
 
@@ -89,7 +89,7 @@ After downloading the template, you'll need to install some dependencies. Once t
 
 ### Folder structure
 
-Inside Foxi Astro project, you'll see the following folders and files:
+Inside NotesDaddy Astro project, you'll see the following folders and files:
 
 ```plaintext
 /
@@ -203,7 +203,7 @@ If you need to enforce a specific theme, you can set the class above as **`mode-
 
 ## License
 
-Copyright © 2024 - Designed & Developed by [Oxygenna](http://www.oxygenna.com/)
+Copyright © 2025 - Designed & Developed by [Oxygenna](http://www.oxygenna.com/)
 
 Released under the MIT license.
 
@@ -211,4 +211,4 @@ Released under the MIT license.
 
 You can join our community on [Discord](https://discord.gg/YC5Eup8ZEx)!
 
-[![Hire Us](https://oxygenna-themes.b-cdn.net/foxi-astro/hireus.png)](mailto:info@oxygenna.com,christos@oxygenna.com)
+[![Hire Us](https://oxygenna-themes.b-cdn.net/NotesDaddy-astro/hireus.png)](mailto:info@oxygenna.com,christos@oxygenna.com)

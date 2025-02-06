@@ -32,17 +32,17 @@ export default {
       colors: {
         transparent: "transparent",
         primary: {
-          50: "#fdf2f8",
-          100: "#fce7f3",
-          200: "#fbcfe8",
-          300: "#f9a8d4",
-          400: "#f472b6",
-          500: "#E2187D",
-          600: "#db2777",
-          700: "#be185d",
-          800: "#9d174d",
-          900: "#831843",
-          950: "#500724",
+          50: "#f5f3ff",   // Lightest shade - very subtle hint
+          100: "#ede9ff",  // Very light tint
+          200: "#ddd6ff",  // Light tint
+          300: "#c4b5ff",  // Medium light
+          400: "#a592ff",  // Medium
+          500: "#5F3AFF",  // Your base color (adjusted for better contrast)
+          600: "#4c2ee6",  // Slightly darker
+          700: "#3f25cc",  // Darker shade
+          800: "#301b99",  // Very dark
+          900: "#231566",  // Nearly darkest
+          950: "#150d33",  // Darkest shade
         },
         neutral: {
           50: "#f8fafc",

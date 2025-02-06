@@ -1,7 +1,8 @@
 ---
-// Basic FAQ section
+// FAQ.astro
+// Basic FAQ section for StudyFlow
 // ------------
-// Description: A section that contains a list of frequently asked questions with answers.
+// Description: A section that contains frequently asked questions about the study platform features and usage.
 
 // Components
 // - Layout
@@ -14,56 +15,65 @@ import Card from '../../ui/cards/partials/Card.astro'
 
 // Props
 type Props = {
-	classes?: string
+  classes?: string
 }
+
 const { classes } = Astro.props
 ---
 
 <Section id="FAQ" classes={classes}>
-	<Row>
-		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-			<h2 class="text-pretty">
-				Demystifying <strong>pricing,</strong> common queries resolved
-			</h2>
-			<p class="text-lg leading-relaxed">
-				Curious about our pricing plans? We’re here to help. Below are some of the most frequently
-				asked questions about our pricing options.
-			</p>
-		</Col>
-		<Col span="2" />
-		<Col span="8">
-			<Card classes="divide-y divide-neutral-100 dark:divide-neutral-800">
-				<Accordion
-					title="What is included in the free trial?"
-					text="Our free trial gives you full access to all features of our platform for 14 days. You can explore and use all functionalities to see how they fit your business needs, without any cost."
-				/>
-				<Accordion
-					title="Can I change my plan later?"
-					text="Yes, you can upgrade or downgrade your plan at any time from your account settings. The changes will take effect immediately, and any cost adjustments will be prorated."
-				/>
-				<Accordion
-					title="Are there any hidden fees?"
-					text="No, there are no hidden fees. The price you see is the price you pay. We believe in transparent pricing with no surprises."
-				/>
-				<Accordion
-					title="What payment methods do you accept?"
-					text="We accept all major credit cards, including Visa, MasterCard, American Express, and PayPal. For enterprise plans, we also offer invoicing options."
-				/>
-				<Accordion
-					title="Do you offer discounts for annual subscriptions?"
-					text="Yes, we offer a discount for annual subscriptions. By choosing an annual plan, you can save up to 20% compared to the monthly plan."
-				/>
-			</Card>
-		</Col>
-		<Col span="2" />
-	</Row>
+  <Row>
+    <Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+      <h2 class="text-pretty">
+        Common <strong class="text-gradient-primary">questions</strong> about your study companion
+      </h2>
+      <p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Discover how Notedaddy's AI-powered features can revolutionize your learning experience. Here are answers to questions we frequently receive from students.
+      </p>
+    </Col>
+    <Col span="2" />
+    <Col span="8">
+      <Card classes="divide-y divide-neutral-100 dark:divide-neutral-800 shadow-xl rounded-2xl">
+        <Accordion
+          title="How does the AI-powered study assistant enhance my learning?"
+          text="Our AI assistant uses advanced RAG (Retrieval-Augmented Generation) technology to analyze and understand your study materials. It provides personalized explanations, generates practice questions, and helps you identify knowledge gaps by referencing your notes. Think of it as having a 24/7 tutor that knows your study style and materials intimately."
+        />
+        <Accordion
+          title="What makes Notedaddy's note organization unique?"
+          text="Notedaddy uses smart categorization and AI tagging to automatically organize your notes by subjects, topics, and concepts. Our system learns from your study patterns to suggest connections between different materials, making revision more efficient. Plus, our universal PDF viewer supports all document formats with intelligent highlighting and annotation features."
+        />
+        <Accordion
+          title="Can I track my study progress effectively?"
+          text="Yes! Our analytics dashboard provides detailed insights into your study patterns, focus sessions, and knowledge retention. You can visualize your progress through interactive charts, streak tracking, and AI-generated performance reports. The system also suggests personalized study schedules based on your learning patterns and goals."
+        />
+        <!-- <Accordion
+          title="How does collaborative studying work?"
+          text="Notedaddy enables seamless collaboration through shared study spaces. You can create study groups, share notes with annotations, and even use our AI assistant collectively. Real-time collaboration features let you study together remotely, while our smart permission system ensures your private notes stay private."
+        /> -->
+        <Accordion
+          title="What's included in the free vs. premium plans?"
+          text="The free plan includes essential features like basic note organization, PDF viewing, and limited AI interactions. Premium unlocks advanced features such as unlimited AI assistance, advanced analytics, and priority support. We also offer special discounts for student organizations and academic institutions."
+        />
+      </Card>
+    </Col>
+    <Col span="2" />
+  </Row>
 </Section>
 
 <style>
-	.page-header {
-		@apply mx-auto max-w-3xl;
-	}
-	.page-header__text {
-		@apply text-lg leading-relaxed;
-	}
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400;
+  }
+  
+  .page-header {
+    @apply mx-auto max-w-3xl;
+  }
+  
+  .page-header__text {
+    @apply text-lg leading-relaxed;
+  }
+  
+  :global(.dark) .text-gradient-primary {
+    @apply from-blue-400 to-indigo-400;
+  }
 </style>
